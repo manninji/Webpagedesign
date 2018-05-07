@@ -1,0 +1,33 @@
+/*
+*Judi Manning
+*Classwork 
+*/ 
+
+/* The Universal Selector */
+
+*{
+	margin: 0;
+	padding:0;
+}
+
+/* Put body attributes here*/
+
+body{
+	border: thin solid red;
+	padding: 5px;
+}
+
+h1{ 
+	border: 5px dotted yellow;
+	padding: 8px;
+}
+
+p{
+	border: thick dotted green;
+	padding: 7px;
+}
+
+main{
+	border: thin solid blue;
+	padding: 12px;
+}
