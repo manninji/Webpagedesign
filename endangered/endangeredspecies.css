@@ -1,0 +1,64 @@
+/*
+*Judi Manning
+*Due May 16
+*/ 
+
+/* The Universal Selector */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	border-bottom: 3px solid darkorange; /* orange line located under title */
+}
+
+body{
+	width: 100%;
+	margin: auto;	
+}
+
+h1{ 
+	border: 20px;
+	padding: 22px;
+	text-align: center;
+	color: darkorange;
+}
+
+h3{
+	color: darkgreen;
+	text-decoration:underline;
+	font-family: serif; /* font I chose for my 3 h3 headers. */
+	padding: 4px;
+}
+
+h4{
+	padding: 4px;}
+
+p{
+	padding: 3px;
+	margin: 3px;
+}
+
+img{ 
+	float: left;
+	border: thin solid darkgreen;
+	padding: 18px;
+	margin: 10px;
+}
+
+ul{
+	margin:18px;
+}
+
+#bottom{
+	float: right;
+} /* specific image I floated. */
+
+footer{
+	border-top: 3px solid darkorange;
+	padding: 4px;
+	float: clear;
+	margin-top: 12px;
+}
