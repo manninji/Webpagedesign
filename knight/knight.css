@@ -1,0 +1,100 @@
+/* Judi Manning
+*  due May 30
+*  Lab: C13 Fluid Layout Exercise */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 95%;
+    background-color: #D2E1EB;
+    margin: 15px auto;
+    border: 1px solid #EA8F44;
+}
+
+h1 {
+    padding: 5px;
+    text-align: center;
+}
+
+#B{
+	clear: both;
+}
+
+h3{
+	font-family: serif;
+	text-align: center;
+	padding: 4px;
+	margin: 4px;
+}
+
+#T{
+	text-decoration: underline;
+}
+
+#Bag{
+	float: none;
+}
+
+#A{
+	text-decoration: underline;
+}
+
+header {
+    border-bottom: 1px solid #EA8F44;
+    text-align: center;
+}
+
+#sidebarA {
+    width: 20%;
+    height: 500px;
+    float: left;
+    border-right: 2px solid #EA8F44;
+}
+
+main {
+    width: 57%;
+   /* height:500px; */
+    float: left;
+    padding: 6px;
+    margin: 4px;
+}
+
+p{
+	padding: 5px;
+	margin:5px;
+}
+
+#P{
+	 text-align: center;
+	 padding: 4px;
+	 margin: 6px;
+}
+
+img{
+	float: left;
+	border: thin solid #EA8F44;
+	padding: 8px;
+	margin: 6px;
+}
+
+#W{
+	float: right;
+}
+
+#sidebarB {
+    width: 20%;
+    height: 500px;
+    float: right;
+    border-left: 2px solid #EA8F44;
+}
+
+#bottom{
+	float: right;
+} /* specific image I floated. */
+footer {
+    clear: both;
+    border-top: 2px solid #EA8F44;
+}
